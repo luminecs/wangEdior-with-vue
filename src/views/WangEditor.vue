@@ -70,6 +70,7 @@ export default {
         // editor.txt.text()  // 读取 text
         // editor.txt.getJSON()  // 获取 JSON 格式的内容
       }
+
       this.editor.customConfig.customUploadImg = function (files, insert) {
         if (self.uploadConfig.method === 'custom') {
           files.forEach(file => {
